@@ -1,0 +1,120 @@
+﻿body {
+    height: 100%;
+    font-size: .85em;
+    font-family: "Tahoma", Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    color: #696969;
+    background-image: url(images/bg.jpg)
+}
+
+.pageWrapper {
+    padding: 30px 150px;
+    position: absolute;
+    left: 15%;
+    background-color: white;
+    height: 100%;
+    border-left: 1px solid #E2E2E2;
+    border-right: 1px solid #E2E2E2;
+    -moz-box-shadow: 0px 0px 20px 2px #E2E2E2;
+    -webkit-box-shadow: 0px 0px 20px 2px #E2E2E2;   
+    box-shadow: 0px 0px 20px 2px #E2E2E2;
+
+}
+
+#header {
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+#topNav {
+    border-bottom: 1px solid #E2E2E2;
+    padding: 0 90px;
+}
+
+#contentWrapper {
+    padding: 0 10px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#main 
+{
+    max-width: 700px;
+    padding: 40px 5px;
+    position: relative;
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+.page {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+.logo 
+{
+    margin: 0;
+    font-family: Six Caps, Helvetica, arial, sans-serif;
+    line-height: 1.1em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 72px;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}

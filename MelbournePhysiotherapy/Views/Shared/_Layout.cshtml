@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Melbourne Physiotherapy and Sports Injury Clinic</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+    <body>
+        <div class="page">
+            <div class="pageWrapper">
+            <header id="header">
+                <div id="logo">
+                    <img width="750px" height="auto" src="~/Images/MelbournePhysiotherapy.JPG"/>
+                </div>
+            
+                <div id="topNav">
+                    <nav class="mainNav">
+                        <ul id="nav">
+                            @*<li>@Html.ActionLink("Hello", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Blog", "Index", "Blog")</li>
+                        <li>@Html.ActionLink("Contact", "Index", "Contact")</li>*@
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div id="contentWrapper">
+                <section id="main">
+                    @RenderBody()
+                </section>
+            </div>
+            <footer>
+            </footer>
+        </div>
+        </div>
+        @Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>
