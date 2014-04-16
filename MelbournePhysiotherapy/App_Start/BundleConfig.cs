@@ -8,11 +8,8 @@ namespace MelbournePhysiotherapy
         // For more information on Bundling, visit http://go.microsoft.com/fwlink/?LinkId=254725
         public static void RegisterBundles(BundleCollection bundles)
         {
-            bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
-
             bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
-                        "~/Scripts/jquery-ui-{version}.js"));
+                        "~/Scripts/jquery-ui-1.8.24.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.unobtrusive*",
@@ -38,6 +35,13 @@ namespace MelbournePhysiotherapy
                         "~/Content/themes/base/jquery.ui.datepicker.css",
                         "~/Content/themes/base/jquery.ui.progressbar.css",
                         "~/Content/themes/base/jquery.ui.theme.css"));
+
+            
+            bundles.Add((new StyleBundle("~/bundles/jssor")).Include(
+                         "~/Scripts/jssor.slider.mini.js"));
+
+            bundles.Add((new StyleBundle("~/bundles/mainscript")).Include(
+                         "~/Scripts/melbournephyiso.js"));
         }
     }
 }

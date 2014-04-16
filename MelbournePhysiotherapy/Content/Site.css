@@ -117,3 +117,22 @@ textarea {
     float: left;
     padding: 0 10px 0 0;
 }
+
+/* Slider styles
+-----------------------------------------------------------*/
+.sliderContainer {
+    position: relative;
+    top: 20px;
+    left: 45px;
+    width: 600px;
+    height: 402px;
+}
+
+.sliderSlides {
+    cursor: move;
+    overflow: hidden;
+    left: 0px;
+    top: 0px;
+    width: 600px;
+    height: 402px;
+}
