@@ -127,6 +127,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TestimonialsController.cs" />
+    <Compile Include="Controllers\TreatmentsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -241,6 +243,8 @@
     <Content Include="Scripts\jssor.slider.mini.compress.bat" />
     <Content Include="Scripts\jssor.sliderc.mini.compress.bat" />
     <Content Include="Scripts\jssor.sliders.mini.compress.bat" />
+    <Content Include="Views\Treatments\Index.cshtml" />
+    <Content Include="Views\Testimonials\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

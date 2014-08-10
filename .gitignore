@@ -162,20 +162,3 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
-/AK.Ecommerce.Reservations/AK/App_Data/Sitefinity/Logs/*.log
-
-
-*.orig
-AK.Ecommerce.Reservations\AK\App_Data\Sitefinity\Logs*/
-*.log.*
-/AK.Ecommerce.Reservations/AK/App_Data/Sitefinity/Logs/*.log
-Media
-imagecache
-Storage
-/AK.Ecommerce.Reservations/BookingEngine/ib
-ib
-/AK.Ecommerce.Reservations/AK/App_Data/Sitefinity/Search
-PageNodeExport.csv
-AK.Ecommerce.Reservations/AK/Media.rar
-/AK.Ecommerce.Reservations/AK/App_Data/Sitefinity/GlobalResources
-/AK.Ecommerce.Reservations/AK/App_Data/Sitefinity/GlobalResources

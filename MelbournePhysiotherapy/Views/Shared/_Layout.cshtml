@@ -11,35 +11,58 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
     <body>
-        <div class="page">
-            <div class="pageWrapper">
-            <header id="header">
-                <div id="logo">
-                    <img width="100%" height="auto" src="~/Images/MelbournePhysiotherapy.JPG"/>
+        <div class="wrapper">
+            <div class="page">
+                <div class="pageWrapper">
+                    <header id="header">
+                        
+                        <div class="logo-wrapper">
+                            <h1 id="logo"><a href="#">Melbourne Physiotherapy and Sports Injury Clinic</a></h1>
+                        </div>
+                        
+                        <div class="nav-contact-details">
+                            <span><b>Mobile: </b></span>
+                            
+                            <span><b>07557 761 852</b></span>
+                            <br/>
+                            <span><b>Email: </b></span>
+                            <span><b><a href="mailto:info@melbournephysio.co.uk">info@melbournephysio.co.uk</a></b></span>
+                        </div>
+                        
+                        <div class="nav-wrapper">
+                            <nav class="mainNav">
+                                <ul id="nav">
+                                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                                    <li>@Html.ActionLink("Treatments", "Index", "Treatments")</li>
+                                    <li>@Html.ActionLink("Testimonials", "Index", "Testimonials")</li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </header>
+                    <div id="contentWrapper">
+                        <section id="main">
+                            @RenderBody()
+                        </section>
+                    </div>
+                    <footer>
+                    </footer>
                 </div>
-            
-                <div id="topNav">
-                    <nav class="mainNav">
-                        <ul id="nav">
-                            @*<li>@Html.ActionLink("Hello", "Index", "Home")</li>
-                        <li>@Html.ActionLink("Blog", "Index", "Blog")</li>
-                        <li>@Html.ActionLink("Contact", "Index", "Contact")</li>*@
-                        </ul>
-                    </nav>
-                </div>
-            </header>
-            <div id="contentWrapper">
-                <section id="main">
-                    @RenderBody()
-                </section>
             </div>
-            <footer>
-            </footer>
         </div>
-        </div>
-        @Scripts.Render("~/bundles/jquery")
-        @Scripts.Render("~/bundles/jssor")
+        @Scripts.Render("~/bundles/jqueryui")
+
         @Scripts.Render("~/bundles/mainscript")
         @RenderSection("scripts", required: false)
+        
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-53677267-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+
     </body>
 </html>

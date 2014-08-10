@@ -5,29 +5,67 @@
     margin: 0;
     padding: 0;
     color: #696969;
-    background-image: url(images/bg.jpg)
+    background-color: #E0EBFD;
+    
+}
+
+
+.wrapper {
+    padding: 20px 0 0 0;
+}
+
+.page {
+    width: 956px;
+    margin: 0 auto;
 }
 
 .pageWrapper {
-    position: absolute;
-    left: 10%;
-    background-color: white;
-    height: 100%;
-    bottom: 0;
-    top: 0;
+    background: #fff;
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 7px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 0px 7px rgba(0,0,0,0.3);
+    -o-box-shadow: 0px 0px 7px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
 
 }
 
 #header {
-    max-width: 700px;
-    margin: 0 auto;
-    position: relative;
-    
+    padding:30px 110px 55px;
+    border-bottom: 1px solid #E2E2E2;
+    margin:0 20px
 }
 
-#topNav {
-    border-bottom: 1px solid #E2E2E2;
-    padding: 0 90px;
+.mainNav {
+    float: right;
+}
+
+.mainNav ul {
+    list-style: none;
+    list-style-position: outside;
+}
+
+.mainNav ul li {
+    float: left;
+    position: relative;
+    padding-right: 2px;
+}
+
+.mainNav ul li a {
+    color: #000;
+    float: left;
+    padding: 0 18px;
+    border-left: 0;
+    border-right: 0;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+
+.main-title {
+    float: left;
 }
 
 #contentWrapper {
@@ -47,14 +85,8 @@ header, footer, nav, section {
     display: block;
 }
 
-.page {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 h1 {
-    padding: 25px 0px;
     font-size: 25px;
 }
 
@@ -88,17 +120,33 @@ textarea {
     margin: 0.5em 0 0 0;
 }
 
-.logo 
+
+#logo a
 {
-    margin: 0;
-    font-family: Six Caps, Helvetica, arial, sans-serif;
-    line-height: 1.1em;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 72px;
+    width: 300px;
+    height: 147px;
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -4000px;
+    background: url(Images/melbournephyisologo_banner.jpg) no-repeat 0 0;
+    
+}
+
+.logo-wrapper{
+    float: left;
     display: inline-block;
-    padding-top: 10px;
+    
+}
+
+.nav-contact-details {
+    display: inline-block;
+    float: right;
+    padding: 80px 0 0 0
+}
+
+.nav-wrapper {
+    clear: left;
 }
 
 /* Styles for homepage contact
