@@ -165,6 +165,14 @@ textarea {
     padding: 0 10px 0 0;
 }
 
+/* Styles for testimonials*/
+
+.testimonial i {
+    text-align: right;
+    float: right;
+    font-weight: bold;
+}
+
 /* Slider styles
 -----------------------------------------------------------*/
 .sliderContainer {
