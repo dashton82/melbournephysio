@@ -126,6 +126,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TestimonialsController.cs" />
     <Compile Include="Controllers\TreatmentsController.cs" />
@@ -136,6 +137,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Images\melbournephyisologo_banner.jpg" />
+    <Content Include="Content\Images\melbournephyisologo_small.jpg" />
+    <Content Include="Content\Images\melbournephyisologo_small.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -246,6 +249,7 @@
     <Content Include="Scripts\jssor.sliders.mini.compress.bat" />
     <Content Include="Views\Treatments\Index.cshtml" />
     <Content Include="Views\Testimonials\Index.cshtml" />
+    <Content Include="Views\Contact\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

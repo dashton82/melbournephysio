@@ -1,11 +1,11 @@
 ﻿body {
     min-height: 800px;
-    font-size: .85em;
+    
     font-family: "Tahoma", Verdana, Helvetica, Sans-Serif;
     margin: 0;
     padding: 0;
     color: #696969;
-    background-color: #E0EBFD;
+    background-color: #fff;
     
 }
 
@@ -21,64 +21,83 @@
 
 .pageWrapper {
     background: #fff;
-    box-shadow: 0px 0px 7px rgba(0,0,0,0.3);
+    /*box-shadow: 0px 0px 7px rgba(0,0,0,0.3);
     -moz-box-shadow: 0px 0px 7px rgba(0,0,0,0.3);
     -webkit-box-shadow: 0px 0px 7px rgba(0,0,0,0.3);
     -o-box-shadow: 0px 0px 7px rgba(0,0,0,0.3);
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    -o-border-radius: 5px;
+    -o-border-radius: 5px;*/
 
 }
 
 #header {
     padding:30px 110px 55px;
-    border-bottom: 1px solid #E2E2E2;
     margin:0 20px
 }
 
+.nav-wrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 1140px;
+}
+
 .mainNav {
-    float: right;
+    width: 100%;
+    background-color: #225CA8;
+    /*border-bottom: 1px solid #E2E2E2;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
 }
 
-.mainNav ul {
-    list-style: none;
-    list-style-position: outside;
-}
-
-.mainNav ul li {
-    float: left;
+.navInner {
     position: relative;
-    padding-right: 2px;
-}
-
-.mainNav ul li a {
-    color: #000;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    width: 100%;
     float: left;
-    padding: 0 18px;
-    border-left: 0;
-    border-right: 0;
-    font-size: 1.4em;
-    text-decoration: none;
 }
 
+.navLink {
+    position: relative;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    width: 18%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+
+.navLink:hover {
+    background-color: #fff;
+    color: #48b548;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
 
 .main-title {
     float: left;
 }
 
 #contentWrapper {
-    padding: 0 10px;
-    max-width: 700px;
+    padding: 80px 5%;
+    
     margin: 0 auto;
 }
 
 #main 
 {
-    max-width: 700px;
-    padding: 40px 5px;
-    position: relative;
+    max-width: 90%;
 }
 
 header, footer, nav, section {
@@ -87,8 +106,9 @@ header, footer, nav, section {
 
 
 h1 {
-    font-size: 25px;
+    font-size: 15px;
 }
+
 
 .spacer {
     border-bottom: 1px solid #E2E2E2;
@@ -123,31 +143,30 @@ textarea {
 
 #logo a
 {
-    width: 300px;
-    height: 147px;
-    display: block;
+    width: 550px;
+    height: 270px;
+    position: relative;
+    float: left;
     font-size: 0;
     line-height: 0;
-    text-indent: -4000px;
-    background: url(Images/melbournephyisologo_banner.jpg) no-repeat 0 0;
+    background: url(Images/melbournephyisologo_large.png) no-repeat 0 0;
     
 }
 
 .logo-wrapper{
     float: left;
-    display: inline-block;
-    
+    display: inline-block; 
+    padding-left:20%;
+    padding-right: 20%;
+    padding-bottom: 45px;
 }
 
-.nav-contact-details {
+/*.nav-contact-details {
     display: inline-block;
     float: right;
     padding: 80px 0 0 0
-}
+}*/
 
-.nav-wrapper {
-    clear: left;
-}
 
 /* Styles for homepage contact
 -----------------------------------------------------------*/
@@ -195,4 +214,22 @@ textarea {
     text-align: center;
     font-size: 0.85em;
     padding:15px;
+    width: 80%;
+}
+
+/* Google Maps
+-----------------------------------------------------------*/
+.map_canvas {
+    width: 600px;
+    height: 400px;
+    
+}
+.map_wrapper {
+    padding: 30px;
+}
+
+
+.contact_page_list ul {
+    list-style: none;
+    padding: 0;
 }
