@@ -196,9 +196,8 @@ textarea {
 -----------------------------------------------------------*/
 .sliderContainer {
     position: relative;
-    top: 20px;
-    left: 45px;
-    width: 800px;
+    padding-left: 10%;
+    padding-right: 10%;
     height: 402px;
 }
 
