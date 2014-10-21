@@ -6,7 +6,7 @@
 
     var homePageSlider = $('#homePageSlider');
     if (homePageSlider.length != 0) {
-        var jssor_slider1 = new $JssorSlider$('homePageSlider', options);
+        new $JssorSlider$('homePageSlider', options);
     }
     
     

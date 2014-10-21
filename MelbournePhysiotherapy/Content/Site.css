@@ -58,7 +58,7 @@
 
 .navInner {
     position: relative;
-    padding-left: 0.9375em;
+    padding-left: 3.9375em;
     padding-right: 0.9375em;
     width: 100%;
     float: left;
@@ -68,12 +68,12 @@
     position: relative;
     padding-left: 0.9375em;
     padding-right: 0.9375em;
-    width: 18%;
+    width: 16%;
     float: left;
     text-align: center;
     padding: 20px;
     color: #fff;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 
@@ -212,7 +212,7 @@ textarea {
 .footer_text {
     text-align: center;
     font-size: 0.65em;
-    padding:15px;
+    padding:15px 40px;
     width: 80%;
 }
 
