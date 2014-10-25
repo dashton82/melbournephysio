@@ -138,6 +138,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Icon\melbournephysio.ico" />
     <Content Include="Content\Images\melbournephyisologo_banner.jpg" />
     <Content Include="Content\Images\melbournephyisologo_large.png" />
     <Content Include="Content\Images\melbournephyisologo_small.png" />
