@@ -58,7 +58,7 @@
 
 .navInner {
     position: relative;
-    padding-left: 3.9375em;
+    padding-left: 3.4375em;
     padding-right: 0.9375em;
     width: 100%;
     float: left;
@@ -66,16 +66,29 @@
 
 .navLink {
     position: relative;
-    padding-left: 0.9375em;
-    padding-right: 0.9375em;
-    width: 16%;
+    padding-left: 0.9175em;
+    padding-right: 0.9175em;
+    width: 15%;
     float: left;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     color: #fff;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
+.navLink.home_icon {
+    padding: 26px 0;
+    width: 4%;
+    background: url(Images/home_icon_white.png) no-repeat 0;
+    background-position: center;
+}
+
+.navLink.home_icon:hover {
+    background: url(Images/home_icon_green.png) no-repeat 0;
+    background-position: center;
+    padding: 27px 0 26px 0;
+    background-color: #fff;
+}
 
 .navLink:hover {
     background-color: #fff;
@@ -185,11 +198,14 @@ textarea {
 }
 
 /* Styles for testimonials*/
-
+.testimonial {
+    padding: 20px 0;
+}
 .testimonial i {
     text-align: right;
     float: right;
     font-weight: bold;
+    
 }
 
 /* Slider styles

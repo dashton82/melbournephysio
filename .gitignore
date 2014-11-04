@@ -40,10 +40,12 @@ local.properties
 *.suo
 *.user
 *.sln.docstates
+*.v11.suo
 
 # Build results
 [Dd]ebug/
 [Rr]elease/
+[Oo]bj/
 *_i.c
 *_p.c
 *.ilk
