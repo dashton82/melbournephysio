@@ -169,6 +169,7 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\Franchise-Bold-hinted.woff" />
+    <Content Include="fonts\Franchise-Bold-hinted.woff" />
     <None Include="Scripts\jquery-1.12.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.12.2.js" />
     <Content Include="Scripts\jquery-1.12.2.min.js" />
