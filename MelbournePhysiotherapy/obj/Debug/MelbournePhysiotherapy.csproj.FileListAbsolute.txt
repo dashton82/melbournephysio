@@ -32,22 +32,18 @@ C:\Development\MelbournePhysiotherapy\MelbournePhysiotherapy\obj\Debug\Melbourne
 C:\Development\melbournephysio\MelbournePhysiotherapy\bin\MelbournePhysiotherapy.dll
 C:\Development\melbournephysio\MelbournePhysiotherapy\bin\MelbournePhysiotherapy.pdb
 C:\Development\melbournephysio\MelbournePhysiotherapy\bin\Antlr3.Runtime.dll
-C:\Development\melbournephysio\MelbournePhysiotherapy\bin\EntityFramework.dll
 C:\Development\melbournephysio\MelbournePhysiotherapy\bin\Microsoft.Web.Infrastructure.dll
-C:\Development\melbournephysio\MelbournePhysiotherapy\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
 C:\Development\melbournephysio\MelbournePhysiotherapy\bin\Newtonsoft.Json.dll
 C:\Development\melbournephysio\MelbournePhysiotherapy\bin\System.Net.Http.Formatting.dll
 C:\Development\melbournephysio\MelbournePhysiotherapy\bin\System.Web.Http.dll
 C:\Development\melbournephysio\MelbournePhysiotherapy\bin\System.Web.Http.WebHost.dll
 C:\Development\melbournephysio\MelbournePhysiotherapy\bin\System.Web.Mvc.dll
 C:\Development\melbournephysio\MelbournePhysiotherapy\bin\System.Web.Optimization.dll
-C:\Development\melbournephysio\MelbournePhysiotherapy\bin\System.Web.Providers.dll
 C:\Development\melbournephysio\MelbournePhysiotherapy\bin\System.Web.Razor.dll
 C:\Development\melbournephysio\MelbournePhysiotherapy\bin\System.Web.WebPages.Deployment.dll
 C:\Development\melbournephysio\MelbournePhysiotherapy\bin\System.Web.WebPages.dll
 C:\Development\melbournephysio\MelbournePhysiotherapy\bin\System.Web.WebPages.Razor.dll
 C:\Development\melbournephysio\MelbournePhysiotherapy\bin\WebGrease.dll
-C:\Development\melbournephysio\MelbournePhysiotherapy\bin\EntityFramework.xml
 C:\Development\melbournephysio\MelbournePhysiotherapy\bin\Newtonsoft.Json.xml
 C:\Development\melbournephysio\MelbournePhysiotherapy\bin\System.Net.Http.Formatting.xml
 C:\Development\melbournephysio\MelbournePhysiotherapy\bin\System.Web.Http.xml
@@ -60,3 +56,4 @@ C:\Development\melbournephysio\MelbournePhysiotherapy\bin\System.Web.WebPages.Ra
 C:\Development\melbournephysio\MelbournePhysiotherapy\obj\Debug\MelbournePhysiotherapy.csprojResolveAssemblyReference.cache
 C:\Development\melbournephysio\MelbournePhysiotherapy\obj\Debug\MelbournePhysiotherapy.dll
 C:\Development\melbournephysio\MelbournePhysiotherapy\obj\Debug\MelbournePhysiotherapy.pdb
+C:\Development\MelbournePhysio\MelbournePhysiotherapy\bin\MelbournePhysiotherapy.dll.config

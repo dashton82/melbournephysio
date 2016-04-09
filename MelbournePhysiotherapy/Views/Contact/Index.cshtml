@@ -2,52 +2,54 @@
     ViewBag.Title = "Contact Information";
 }
 
-<h2>@ViewBag.Title</h2>
-<div class="contact_page_list">
-    <ul style="list-style: none">
-    <li>
-        <div class="row">
-            <div class="leftRow">
-                <span>Mobile:</span>
-            </div>
-            <div class="rightRow">
-                <span><b>07557 761 852</b></span>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="row">
-            <div class="leftRow">
-                <span>Home:</span>
-            </div>
-            <div class="rightRow">
-                <span><b>01332 694 344</b></span>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="row">
-            <div class="leftRow">
-                <span>Or Email me at:</span>
-            </div>
-            <div class="rightRow">
-                <span><b><a href="mailto:info@melbournephysio.co.uk">info@melbournephysio.co.uk</a></b></span>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="row">
-            <div class="leftRow">
-                <span>Address:</span>
-            </div>
-            <div class="rightRow">
-                <span><b>Melbourne Physiotherapy and Sports Injury Clinic<br />Unit A1<br/> Castle Street<br/> Melbourne<br/> Derbyshire<br/> DE73 8JA</b></span>
-            </div>
-        </div>
-        <div class="map_wrapper">
-            <div id="googleMap" class="map_canvas">
-            </div>
-        </div>
-    </li>
-</ul>
+<div class="row">
+    <div class="col-lg-10">
+        <h1 class="jumbotron">@ViewBag.Title</h1>
+    </div>
 </div>
+
+<div class="row">
+    <div class="col-lg-10">
+        <ul style="list-style: none">
+            <li>
+                <div class="row">
+                    <span class="text-left">Mobile:</span>
+                    <span class="text-right"><b>07557 761 852</b></span>
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <span class="text-left">Home:</span>
+                    <span class="text-right"><b>01332 694 344</b></span>
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <span class="text-left">Or Email me at:</span>
+                    <span class="text-right"><b><a href="mailto:info@melbournephysio.co.uk">info@melbournephysio.co.uk</a></b></span>
+
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <span>Address:</span>
+                </div>
+                    <div class="row">
+                        <span><b>Melbourne Physiotherapy and Sports Injury Clinic<br />Unit A1<br /> Castle Street<br /> Melbourne<br /> Derbyshire<br /> DE73 8JA</b></span>
+
+                    </div>
+                
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-10">
+        <div class="map-wrapper">
+            <div id="googleMap" class="map-canvas">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEs38JEi3Di2mKGts7u4WfqyzWSO2Bhuo"></script>

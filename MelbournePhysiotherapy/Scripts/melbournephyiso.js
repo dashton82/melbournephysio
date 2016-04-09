@@ -1,14 +1,4 @@
 ﻿$(document).ready(function () {
-    var options = {
-        $AutoPlay: true,
-        
-    };
-
-    var homePageSlider = $('#homePageSlider');
-    if (homePageSlider.length != 0) {
-        new $JssorSlider$('homePageSlider', options);
-    }
-    
     
     function initializeGoogleMap() {
         var mapCanvas = document.getElementById('googleMap');
@@ -36,5 +26,5 @@
         google.maps.event.addDomListener(window, 'load', initializeGoogleMap);
     }
     
-
+    
 })

@@ -166,3 +166,7 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+UpgradeLog.htm
+MelbournePhysiotherapy/obj/**/*.*
+MelbournePhysiotherapy/bin/*.*
+MelbournePhysiotherapy.v11.suo
