@@ -2,8 +2,7 @@
 font-family: 'Franchise Bold';
 font-style: normal;
 font-weight: normal;
- 
-src: url('../fonts/Franchise-Bold-hinted.woff')  format('woff');
+src: local('Franchise Bold'), url('../../fonts/Franchise-Bold-hinted.woff')  format('woff') ;
 }
 
 body {
