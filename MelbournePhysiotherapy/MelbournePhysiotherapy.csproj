@@ -150,7 +150,9 @@
     <Content Include="Content\Images\Processed\DSC_0499.jpg" />
     <Content Include="Content\Images\Processed\DSC_0503.jpg" />
     <Content Include="Content\Images\Processed\DSC_0508.jpg" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Images\HomePageSlider\DSC_0485.JPG" />
@@ -158,10 +160,18 @@
     <Content Include="Images\HomePageSlider\DSC_0499.JPG" />
     <Content Include="Images\HomePageSlider\DSC_0503.JPG" />
     <Content Include="Images\HomePageSlider\DSC_0508.JPG" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.woff">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.eot">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
@@ -169,7 +179,9 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\Franchise-Bold-hinted.woff" />
-    <Content Include="fonts\Franchise-Bold-hinted.woff" />
+    <Content Include="fonts\Franchise-Bold-hinted.woff">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Scripts\jquery-1.12.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.12.2.js" />
     <Content Include="Scripts\jquery-1.12.2.min.js" />
