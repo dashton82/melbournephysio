@@ -42,14 +42,26 @@ textarea {
     color: #4FAD32;
 }
 
-.navbar-inverse .navbar-nav > li > a {
-    color: #ffffff;
-    font-size: 30px;
-    padding: 15px 30px;
-    font-family: 'Franchise Bold';
-    text-transform: uppercase;
-    
+
+@media (min-width: 990px) {
+    .navbar-inverse .navbar-nav > li > a {
+        color: #ffffff;
+        font-size: 30px;
+        padding: 15px 30px;
+        font-family: 'Franchise Bold';
+        text-transform: uppercase;
+    }
 }
+@media (max-width: 989px) {
+    .navbar-inverse .navbar-nav > li > a {
+        color: #ffffff;
+        font-size: 30px;
+        font-family: 'Franchise Bold';
+        text-transform: uppercase;
+        padding: 15px 10px;
+    }
+}
+
 
 .jumbotron {
     font-family: 'Franchise Bold';
@@ -115,7 +127,7 @@ textarea {
 }
 
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    height: 404px;
+    
 }
 
 footer {
