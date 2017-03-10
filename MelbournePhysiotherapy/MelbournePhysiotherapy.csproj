@@ -182,6 +182,12 @@
     <Content Include="fonts\Franchise-Bold-hinted.woff">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="fonts\BLANCH_CAPS_LIGHT.woff" />
+    <Content Include="fonts\BLANCH_CAPS.woff" />
+    <Content Include="fonts\BLANCH_CAPS_INLINE.woff" />
+    <Content Include="fonts\BLANCH_CONDENSED.woff" />
+    <Content Include="fonts\BLANCH_CONDENSED_INLINE.woff" />
+    <Content Include="fonts\BLANCH_CONDENSED_LIGHT.woff" />
     <None Include="Scripts\jquery-1.12.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.12.2.js" />
     <Content Include="Scripts\jquery-1.12.2.min.js" />

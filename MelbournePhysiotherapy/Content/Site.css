@@ -5,6 +5,25 @@ font-weight: normal;
 src: local('Franchise Bold'), url('../fonts/Franchise-Bold-hinted.woff')  format('woff') ;
 }
 
+@font-face {
+    font-family: 'Blanch Caps Light';
+    font-style: normal;
+    font-weight: normal;
+    src:local('BLANCH_CAPS_LIGHT'), url('../fonts/BLANCH_CAPS_LIGHT.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Blanch Caps Inline';
+    font-style: normal;
+    font-weight: normal;
+    src:local('BLANCH_CAPS_INLINE'), url('../fonts/BLANCH_CAPS_INLINE.woff') format('woff')
+}
+@font-face {
+    font-family: 'Blanch Caps';
+    font-style: normal;
+    font-weight: normal;
+    src:local('BLANCH_CAPS'), url('../fonts/BLANCH_CAPS.woff') format('woff')
+}
 body {
     padding-top: 50px;
     padding-bottom: 20px;
@@ -60,6 +79,12 @@ textarea {
         text-transform: uppercase;
         padding: 15px 10px;
     }
+}
+
+h3 {
+    font-family: 'Blanch Caps';
+    font-size: 40px;
+    font-weight: bold;
 }
 
 
@@ -145,4 +170,8 @@ footer {
 
 .icon-bar {
     color: #4FAD32;
+}
+
+.testimonial {
+    font-style:italic
 }
